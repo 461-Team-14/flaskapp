@@ -1,1 +1,5 @@
-[![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/cloudshell/editor?shellonly=true&cloudshell_image=gcr.io/cloudrun/button&cloudshell_git_repo=YOUR_HTTP_GIT_URL)
+
+python3 -m venv env;
+source env/bin/activate;
+pip install -r pythonrequirements.txt;
+python3 main.py;
