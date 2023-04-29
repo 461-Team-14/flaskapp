@@ -1,3 +1,7 @@
+import sqlite3
+from flask import Flask, render_template, request, url_for, flash, redirect
+from werkzeug.exceptions import abort
+
 app = Flask(__name__)
 
 def store_time(email, dt):
@@ -20,5 +24,8 @@ def fetch_times(email, limit):
 
 
 
-firebase_request_adapter = requests.Request()
-@app.route('/')
+# firebase_request_adapter = requests.Request()
+# @app.route('/')
+
+if __name__ == '__main__':
+    app.run()
